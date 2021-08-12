@@ -26,7 +26,7 @@ const Tag= ()=>{
             <button onClick={handleClick}>Get a Gif</button>
         </div>
 
-    )
+    );
 }
 
 export default Tag;

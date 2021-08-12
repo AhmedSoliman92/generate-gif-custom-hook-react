@@ -1,13 +1,13 @@
 import React from "react";
-import Tag from "./components/Tag";
-import Random from "./components/Random";
+import RandomCH from "./components/RandomCH";
+import TagCH from "./components/TagCH";
 import './App.css' ;
 const App=()=> (
     <>
         <h1>Random Gif App</h1>
         <div className="main-container">
-            <Tag/>
-            <Random/>
+            <TagCH/>
+            <RandomCH/>
         </div>
     </>
 )
